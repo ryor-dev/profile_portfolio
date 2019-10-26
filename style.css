@@ -258,7 +258,7 @@ html, body{
 	width:			100%;
 	height:			100%;
 	visibility:		hidden;	/* 文字を表示しない */
-	font-size:		120%;
+	font-size:		140%;
 	position:		absolute;
 	top:			0;
 	left:			0;
@@ -408,9 +408,12 @@ footer {
 /*レスポンシブ対応*/
 @media screen and (min-width:500px) {
       .portfolio {
-      width: 45%;
+      width: 48%;
       height: auto;
       margin-bottom: -1px;
+      }
+      .portfolio .caption {
+      	font-size:		120%;
       }
       .skill {
       width: 23%;
@@ -420,9 +423,12 @@ footer {
 }
 @media screen and (min-width:768px) {
       .portfolio {
-      width: 32%;
+      width: 48%;
       height: auto;
       margin-bottom: -1.2px;
+      }
+      .portfolio .caption {
+        font-size:		160%;
       }
       .skill {
       width: 19%;
@@ -433,6 +439,9 @@ footer {
       .skill {
       width: 18%;
       height: auto;
+      }
+      .portfolio .caption {
+        font-size:		160%;
       }
       .skill_list {
         margin: 0 50px 0 50px;

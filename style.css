@@ -247,8 +247,8 @@ html, body{
 
 /*ポートフォリオ配置*/
 .portfolio {
-	height:			100%;
-  width:			auto;
+	height:			auto;
+  width:			90%;
 	overflow:		hidden;
 	display:		inline-block;
 	position:		relative;
@@ -408,9 +408,9 @@ footer {
 /*レスポンシブ対応*/
 @media screen and (min-width:500px) {
       .portfolio {
-      width: 48%;
+      width: 80%;
       height: auto;
-      margin-bottom: -1px;
+      margin-bottom: 20px;
       }
       .portfolio .caption {
       	font-size:		120%;

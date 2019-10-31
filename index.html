@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="animate.css">
   <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -27,8 +28,8 @@
   <nav class="overlay-menu">
     <ul>
       <li><a href="#" class="menu_aboutme">About Me</a></li>
+      <li><a href="#" class="menu_service">Service</a></li>
       <li><a href="#" class="menu_works">Works</a></li>
-      <li><a href="#" class="menu_skills">Skills</a></li>
       <li><a href="#" class="menu_contact">Contact</a></li>
     </ul>
   </nav>
@@ -37,147 +38,222 @@
 
 </header>
 
-<section class="maincontents">
 <!--タイトル-->
 <div class="my_introduction">
-    <h1 class="myname">Yuji MIZUTANI's Portfolio</h1>
-    <p class="introduction">Web Engineer</p>
+    <h1 class="myname">Yuji MIZUTANI</h1>
+    <p class="worker_type">-Web Engineer-</p>
 </div>
 
+<div class="main_content">
 <!-- 自己紹介 -->
-<div class="portfolio_title profile_title">
-  <span class="glyphicon glyphicon-user" style="letter-spacing:5px;"></span><p>Profile</p>
-</div>
-<div class="profile_image">
-  <img src="./image/myprofile2.jpg" alt="myprofile" />
-</div>
-<div class="introduction_text">
-  <p>
-    初めまして、東京都在住の<span style="font-weight: bold">Yuji Mizutani</span>と申します。<br><br>
-    会社で働きながら、平日は<span style="font-weight: bold">6時間</span> (就業前2時間+就業後4時間)、休日は<span style="font-weight: bold">10時間の作業時間を毎日確保しています。</span><br><br>
-    楽しみながらWeb製作しているので、どこまでも作業が続くんだと思います。<br><br>
-    Web製作は"丁寧"を心がけながら、圧倒的な作業量をこなすことで、<span style="font-weight: bold">「質」</span>と<span style="font-weight: bold">「スピード」</span>を重視しています。<br><br>
-    【経歴】<br>
-    1993年：滋賀県の琵琶湖の近くに生まれる<br>
-    2013年：京都大学工学部電気電子工学科に入学<br>
-    2017年：京都大学大学院情報学研究科へ進学<br>
-    2019年：大手通信会社に入社
-  </p>
+<div class="profile_section">
+
+  <div class="portfolio_title profile_title animated fadein">
+    <span class="glyphicon glyphicon-user" style="letter-spacing:5px;"></span> <p>About Me</p>
+  </div>
+
+  <div class="profile_image flexbox1 animated fadein" >
+    <img src="./image/myprofile2.jpg" alt="myprofile"/>
+  </div>
+
+  <div class="sub_title animated fadein">
+    <span class="glyphicon glyphicon-apple" style="letter-spacing:5px;"></span> <p>Introduction</p>
+  </div>
+  <div class="introduction_text animated fadein">
+    <p>
+    初めまして。Webエンジニアの<span style="font-weight: bold">水谷侑二</span>と申します。<br><br>
+    会社で働きながら、平日は6時間、休日は10時間の作業時間を毎日確保しています。<br><br>
+    「<span style="font-weight: bold; color:red;">質</span>」と「<span style="font-weight:bold; color:red;">スピード</span>」を重視することで、期待以上のものを提供させていただきます。<br><br>
+    また、クライアント様に寄り添った<span style="font-weight:bold;color:red;">丁寧なコミュニケーション</span>を常に心がけています。<br><br>
+    </p>
+  </div>
+
+  <div class="sub_title animated fadein">
+    <span class="glyphicon glyphicon-education" style="letter-spacing:5px;"></span> <p>Educartions</p>
+  </div>
+
+  <div class="introduction_text animated fadein">
+    <p>
+      1993年：滋賀県近江八幡市に生まれる<br><br>
+      2017年：京都大学工学部電気電子工学科卒業<br><br>
+      2019年：京都大学大学院情報学研究科卒業<br><br>
+      2019年：大手通信会社に入社<br><br>
+      プログラミングスクールTechAcademyの「フロントエンドコース」「Webアプリケーションコース」「Wordpressコース」「Webデザインコース」
+      「Webマーケティングコース」「Pythonコース」「データサイエンスコース」「AIコース」を3ヶ月で修了
+    </p>
+  </div>
+
 </div>
 
-<!-- スキル紹介 -->
-<section class="skill_list">
+  <!-- スキル紹介 -->
+<div class="skill_section">
   <div class="portfolio_title skill_title">
-    <span class="glyphicon glyphicon-cog" style="letter-spacing:5px;"></span><p>Skill</p>
+    <span class="glyphicon glyphicon-cog" style="letter-spacing:5px;"></span><p>Skills</p>
   </div>
 
-  <div class="skill">
-    <img src="./image/HTML.jpg" alt="frontend languages" />
-    <p>レベル: ★★★★☆<br><br></p>
+<div class="introduction_text animated fadein">
+    <div class="skill">
+      <img src="./image/HTML.jpg" alt="frontend languages" />
+      <p>Level: ★★★★☆</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/CSS.jpg" alt="frontend languages" />
+        <p>Level: ★★★★☆</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Javascript.jpg" alt="frontend languages" />
+      <p>Level: ★★★★☆<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Wordpress.jpg" alt="Wordpress" />
+        <p>Level: ★★★★☆</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Ruby.jpg" alt="Rails" />
+      <p>Level: ★★★☆☆<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/Python.jpg" alt="machine learning language" />
+      <p>Level: ★★★☆☆<br>
+      </p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/MySQL.jpg" alt="MySQL" />
+        <p>Level: ★★★☆☆</p>
+    </div>
+
+    <div class="skill">
+      <img src="./image/github.jpg" alt="github" />
+        <p>Level: ★★★★☆</p>
+    </div>
+ </div>
+</div>
+
+<!-- サービス紹介 -->
+<div class="service_section">
+<div class="portfolio_title skill_title">
+  <span class="glyphicon glyphicon-globe" style="letter-spacing:5px;"></span><p>Service</p>
+</div>
+
+<div class="animated fadein">
+  <div class="service_item">
+    <div class="service_image">
+      <img src="./image/desktop.jpg" alt="coding" />
+    </div>
+    <div class="sub_title">
+      <p>コーディング</p>
+    </div>
+
+    <div class="service_content">
+      スマートフォンサイトやWordpressを使用した更新性の高いサイト、Javascriptを使用した動きのあるサイトなど、
+      目的に応じた適切なコーディングを行います。
+    </div>
   </div>
 
-  <div class="skill">
-    <img src="./image/CSS.jpg" alt="frontend languages" />
-      <p>レベル: ★★★★☆<br><br></p>
+  <div class="service_item">
+    <div class="service_image">
+      <img src="./image/pencil.jpg" alt="web design" />
+    </div>
+    <div class="sub_title">
+      <p>Webデザイン</p>
+    </div>
+    <div class="service_content">
+      ヒアリングにより、ご要望に沿ったデザインを的確に把握し作成いたします。
+      ユーザーインターフェースを重要視した設計を行い、ご期待をさらに超える提案をさせていただきます。
+    </div>
   </div>
 
-  <div class="skill">
-    <img src="./image/Javascript.jpg" alt="frontend languages" />
-    <p>レベル: ★★★★☆<br>
-      ライブラリ: JQuery
-    </p>
+    <div class="service_item">
+      <div class="service_image">
+        <img src="./image/wordpress2.jpg" alt="wordpress" />
+      </div>
+      <div class="sub_title">
+        <p>Wordpress</p>
+      </div>
+      <div class="service_content">
+        WordPressサイトの構築や既存サイトのWordPress移行、コードの修正に対応をしております。
+        コーポレートサイトだけでなく、個人ブログ、ウェブマガジンにも対応可能です。
+      </div>
+    </div>
   </div>
+</div>
 
-  <div class="skill">
-    <img src="./image/Wordpress.jpg" alt="Wordpress" />
-      <p>レベル: ★★★★☆<br><br></p>
-  </div>
-
-  <div class="skill">
-    <img src="./image/backend_language.jpg" alt="backend language" />
-    <p>レベル: ★★★☆☆<br>
-      ライブラリ: Ruby on Rails
-    </p>
-  </div>
-
-  <div class="skill">
-    <img src="./image/Python.jpg" alt="machine learning language" />
-    <p>レベル: ★★★☆☆<br>
-      ライブラリ: scikit-learn, Tensorflow
-    </p>
-  </div>
-
-  <div class="skill">
-    <img src="./image/MySQL.jpg" alt="MySQL" />
-      <p>レベル: ★★★☆☆<br><br></p>
-  </div>
-
-  <div class="skill">
-    <img src="./image/github.jpg" alt="github" />
-      <p>レベル: ★★★★☆<br><br></p>
-  </div>
-</section>
 <!--Webサイト　ポートフォリオ-->
-<section class="web_portfolio">
+<div class="portfolio_section">
   <div class="portfolio_title works_title">
     <span class="glyphicon glyphicon-list-alt" style="letter-spacing:5px;"></span><p>Works</p>
   </div>
 
-  <a href="https://mizutaniyuji.github.io/my_portfolio" class="portfolio_link">
-  <div class="portfolio">
-  	<img src="./image/my_portfolio.png" alt="portfolio" />
-  	<div class="mask1"></div>
-  	<div class="mask2"></div>
-  	<div class="caption">
-  		<p>オリジナル作品: Yuji Mizutani's Portfolio<br><br>
-        HTML / CSS / JQuery
-      </p>
-  	</div>
-  </div>
-  </a>
-
-  <!-- <a href="#" class="portfolio_link">
-  <div class="portfolio">
-  	<img src="./image/my_portfolio.png" alt="portfolio" />
-  	<div class="mask1"></div>
-  	<div class="mask2"></div>
-  	<div class="caption">
-      <p>Title: <br><br>
-        HTML / CSS / JQuery
-      </p>
-  	</div>
-  </div>
-  </a> -->
-
-  <a href="https://movie-collections-ver1.herokuapp.com/" class="portfolio_link">
-  <div class="portfolio">
-    <img src="./image/movie-collections.png" alt="portfolio" />
-    <div class="mask1"></div>
-    <div class="mask2"></div>
-    <div class="caption">
-      <p>オリジナル作品: Movie-Collections<br><br>
-        HTML / CSS / JQuery / Ruby (Ruby on Rails)<br><br>
-      </p>
+<div class="animated fadein">
+    <a href="https://mizutaniyuji.github.io/my_portfolio" class="portfolio_link">
+    <div class="portfolio">
+    	<img src="./image/my_portfolio.png" alt="portfolio" />
+    	<div class="mask1"></div>
+    	<div class="mask2"></div>
+    	<div class="caption">
+    		<p>Category: オリジナル作品<br><br>
+          Title: Yuji Mizutani's Portfolio<br><br>
+          Skill: HTML / CSS / JQuery<br><br>
+          Detail: 私のことをよく知ってもらうためのサイトです。
+        </p>
+    	</div>
     </div>
-  </a>
+    </a>
+
+    <a href="https://movie-collections-ver1.herokuapp.com/" class="portfolio_link">
+    <div class="portfolio">
+      <img src="./image/movie-collections.png" alt="portfolio" />
+      <div class="mask1"></div>
+      <div class="mask2"></div>
+      <div class="caption">
+        <p>Category: オリジナル作品<br><br>
+          Title: Movie Collections<br><br>
+          Skill: HTML / CSS / JQuery / Ruby on Rails<br><br>
+          Detail: 自分のお気に入りの映画を共有できるサービスです。
+        </p>
+      </div>
+    </div>
+    </a>
+
+    <a href="https://movie-collections-ver1.herokuapp.com/" class="portfolio_link">
+    <div class="portfolio">
+      <img src="./image/movie-collections.png" alt="portfolio" />
+      <div class="mask1"></div>
+      <div class="mask2"></div>
+      <div class="caption">
+        <p>Category: オリジナル作品<br><br>
+          Title: Movie Collections<br><br>
+          Skill: HTML / CSS / JQuery / Ruby on Rails<br><br>
+          Detail: 自分のお気に入りの映画を共有できるサービスです。
+        </p>
+      </div>
+    </div>
+    </a>
+
   </div>
-
-</section>
-
+</div>
 
 <footer>
   <div class="portfolio_title contact_title">
     <span class="glyphicon glyphicon-envelope" style="letter-spacing:5px;"></span><p>Contact</p>
   </div>
-  <div class="contact_text">お問い合わせはTwitterのDMよりお願い致します</div>
+  <div class="contact_text">ご依頼（ご相談）はメールまたはTwitterのDMよりお願い致します</div>
     <!--SNSアイコン-->
     <div>
     <ul class="follow-me">
-      <li><a href="https://twitter.com" class="twitter"></a></li>
-      <li><a href="https://www.facebook.com" class="facebook"></a></li>
-      <li><a href="https://www.instagram.com" class="instagram"></a></li>
+      <li><a href="mailto:yuzi0x14@gmail.com?body=ご依頼/ご相談内容" class="gmail"></a></li>
+      <!-- <li><a href="https://twitter.com/YuJi_MZTN" class="twitter"></a></li> -->
+      <li><a href="https://www.facebook.com/YuJiMZTN" class="facebook"></a></li>
+      <li><a href="https://www.instagram.com/mizutani_yuji/" class="instagram"></a></li>
       <!-- <li><a href="https://www.youtube.com" class="youtube"></a></li> -->
-      <!-- <li><a href="https://www.youtube.com" class="gmail"></a></li> -->
     </ul>
     </div>
     <!--コピーライト-->
@@ -185,8 +261,7 @@
       Copyright &copy; 2019 Yuji MIZUTANI's Protfolio All Rights Reserved.
     </div>
 </footer>
-
-
+</div>
       <script src="vendor/jquery-2.2.4.min.js"></script>
       <script src="bootstrap/js/bootstrap.min.js"></script>
       <script src="bootstrap/js/bootstrap.js"></script>
@@ -194,7 +269,8 @@
       <script src="vendor/jquery.magnific-popup.min.js"></script>
       <script src="vendor/mobile-detect.min.js"></script>
       <script src="main.js"></script>
-
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="jquery.waypoints.min.js"></script>
 
 </body>
 

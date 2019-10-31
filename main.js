@@ -17,15 +17,15 @@ $('.menu_aboutme').click(function() {
   $("#toggle").toggleClass("active");
 });
 
-$('.menu_works').click(function() {
-  $("html,body").animate({scrollTop:$(".works_title").offset().top});
+$('.menu_service').click(function() {
+  $("html,body").animate({scrollTop:$(".service_section").offset().top});
   $('#overlay').removeClass("open");
   $('html div').removeClass("blur");
   $("#toggle").toggleClass("active");
 });
 
-$('.menu_skills').click(function() {
-  $("html,body").animate({scrollTop:$(".skill_title").offset().top});
+$('.menu_works').click(function() {
+  $("html,body").animate({scrollTop:$(".portfolio_section").offset().top});
   $('#overlay').removeClass("open");
   $('html div').removeClass("blur");
   $("#toggle").toggleClass("active");
@@ -37,3 +37,11 @@ $('.menu_contact').click(function() {
   $('html div').removeClass("blur");
   $("#toggle").toggleClass("active");
 });
+
+// Animate.cssのfadeInUpエフェクトを適用
+$(".fadein").waypoint(function(direction) {
+  if (direction === "down") {
+    $(this.element).addClass("fadeInUp");
+    this.destroy();
+  }
+}, { offset: "100%" });

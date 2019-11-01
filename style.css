@@ -366,7 +366,7 @@ html, body{
 	width:			100%;
 	height:			100%;
 	visibility:		hidden;	/* 文字を表示しない */
-	font-size:		140%;
+	font-size:		130%;
 	position:		absolute;
 	top:			0;
 	left:			0;
@@ -378,7 +378,6 @@ html, body{
 	visibility:		visible;	/* 文字を表示する */
 }
 .portfolio .caption p {
-	padding-top:		10%;
 	color:			#fff;
 	opacity:		0;	/* ホバーが解除された時すぐ消えるように、文字を表示しない */
 }
@@ -557,7 +556,7 @@ footer {
   margin: 0 8px 10px 8px;
   }
   .portfolio .caption {
-    font-size:		130%;
+    font-size:		120%;
   }
   .portfolio_section {
     background-image: url("image/toppage13.jpg");
@@ -605,7 +604,7 @@ footer {
   height: auto;
   }
   .portfolio .caption {
-    font-size:		130%;
+    font-size:		120%;
   }
   .service_item {
     display: inline-block;

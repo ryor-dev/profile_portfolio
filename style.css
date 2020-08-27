@@ -493,13 +493,13 @@ footer {
 .follow-me li .facebook::before { content: "\f09a"; }
 .follow-me li .instagram::before { content: "\f16d"; }
 .follow-me li .twitter::before { content: "\f099"; }
-/* .follow-me li .youtube::before { content: "\f16a"; } */
+.follow-me li .youtube::before { content: "\f16a"; }
 .follow-me li .gmail::before { content: "\f0e0"; }
 
 .follow-me li .facebook:hover::before { background-color: #3b5998; }
 .follow-me li .instagram:hover::before { background: linear-gradient(to right, #5478f2 0%, #f23f79 80%, orange 100%);}
 .follow-me li .twitter:hover::before { background-color: #55acee; }
-/* .follow-me li .youtube:hover::before { background-color: #cd201f; } */
+.follow-me li .youtube:hover::before { background-color: #cd201f; }
 .follow-me li .gmail:hover::before { background-color: #FF773E; }
 
 /*レスポンシブ対応*/

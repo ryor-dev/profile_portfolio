@@ -183,10 +183,10 @@ html, body{
 /*タイトル*/
 .my_introduction{
   margin: 0 auto;
-  background-image: url("image/toppage16.jpg");
+  background-image: url("image/toppage11.jpg");
   background-size: cover;
   padding: 300px 0 300px 0;
-  color: black;
+  color: white;
   position: sticky;
   top: 0;
 }
@@ -506,7 +506,7 @@ footer {
 
 @media screen and (min-width:500px) {
   .skill_section {
-    background-image: url("image/toppage3.jpg");
+    background-image: url("image/toppage6.jpg");
     background-size: cover;
   }
   .profile_section {
@@ -547,7 +547,7 @@ footer {
     background-size: cover;
   }
   .skill_section {
-    background-image: url("image/toppage3.jpg");
+    background-image: url("image/toppage6.jpg");
     background-size: cover;
   }
   .portfolio {
@@ -584,7 +584,7 @@ footer {
     background-size: cover;
   }
   .skill_section {
-    background-image: url("image/toppage3.jpg");
+    background-image: url("image/toppage6.jpg");
     background-size: cover;
   }
   .portfolio {
